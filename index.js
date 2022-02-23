@@ -1,7 +1,7 @@
 const {name1, name2, name3} = require("./config.js");
 const format  = [name1,name2,name3];
-const output_nmbr = 10;
-const delimiter = "";
+const output_nmbr = 10; // add the number of names to generate
+const delimiter = ""; // add delimeter between words
 
 for (let i=0 ;i <output_nmbr; i++){ 
     const create = () => {
